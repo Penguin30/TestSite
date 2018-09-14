@@ -1,0 +1,38 @@
+button {
+  background: #fff;
+  border: 1px solid #eee;
+  cursor: pointer;
+  overflow: hidden;
+  padding: .75em 2.25em .75em 1em;
+  position: relative;
+}
+
+button:before,
+button:after {
+  border-style: solid;
+  border-width: 8px 5px;
+  border-color: transparent;
+  content: '';
+  height: 0;
+  position: absolute;
+    right: 10px;
+  width: 0;
+}
+
+button:before {
+  border-bottom-color: #ccc;
+  top: 0;
+}
+
+button:after {
+  border-top-color: #ccc;
+  bottom: 0;
+}
+
+.asc:before {
+  border-bottom-color: #777;
+}
+
+.desc:after {
+  border-top-color: #777;
+}

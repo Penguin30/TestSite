@@ -1,5 +1,5 @@
 Test task
-<br>access to WP dashboard
+acces to WP dashboard
 
-login - root <br>
+login - root
 pass  - GzwjV833to7E
